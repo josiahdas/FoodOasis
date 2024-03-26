@@ -1,0 +1,59 @@
+<html>
+
+
+<head>
+    <title>Searching</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <body>
+  <div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+  <a href="search2.html">Search</a>
+    <a href="user_page.php">Supply</a>
+    <a href="checklist.html">Checklist</a>
+    <a href="sitedesc.html">Site Description</a>
+    <a href="aboutus.html">About Us</a>
+    
+  </div>
+  
+  <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    
+      <script>
+        
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+    <div class="about-section">
+  <h1>Checklist</h1>
+  <p>
+
+</p>
+Database Usage – database is used for the login/register pages with PhpMyAdmin and mysql
+<br>
+New Library Usage – google maps library is used in the search page where you must input zip code 30303 or 30097 and then click on directions button of any restaurant and a google maps route will be created
+<br>
+Javascript Usage – javascript is used throughout the site but a good example would be the dropdown navigation list on the top left corner of the page
+
+<br>Membership Area – only suppliers/volunteers need to sign in; a user can use the site without needing a account 
+<br>
+General User – a general user, in this case a volunteer/supplier, as per the project guidelines is created already and you are basically logged into a supplier page as a vendor (in this case Burger King)
+<br>
+<p>
+</div>
+
+  </div>  
+<body>
+<html>

@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Supplier View</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="supplier.html">Supply</a>
+        
+    </div>
+    
+    <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+
+    <br>
+
+    <body style = "background-color: lightgreen;">
+    <br>
+    <img src = "ourlogo.png" alt = "hello" width = 400 height = 100 class = "rounded" style = "margin-left: auto; margin-right: auto; display: block;">
+    <h1 style = "text-align: center; text-shadow: 3px 3px white;">Food For Everyone</h1>
+
+    <div class="d-flex justify-content-center align-items-center hv-100">
+
+        <form class="shadow w-450 p-3" style = "background-color: white; border-radius: 20px;">
+
+            <h4 class="display-4 fs-1">Burger King</h4> 
+            <h5><b><u>Fast Food Restaurant</u></b></h5> 
+
+            <div class = "text-center">
+
+                <img src = "bk.jpeg" alt = "burger queen" width = 400 height = 300 class = "rounded">
+    
+                </div>
+                <br>
+
+            <div class="mb-3">
+                <h4><b>Hours:</b><br><h5>6AM-11PM (Sun-Wed) <br> Open 24 Hours (Thur-Sat)</h5></h4> 
+                <h4><b>Category:</b><br><h5>Other</h5></h4>
+                <h4><b>Address:<br></b><h5>199 Northside Dr SW, Atlanta, GA 30313</h5></h4>
+                <h4><b>Contact Information:</b><br><h5>(404) 600-2313</h5></h4>
+                <a href="updateform.html" target="_blank">Edit Information</a>
+                </a>
+                <br>
+                <br>
+                <h4><b>Incoming Visitors: 12</h5><h/4>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
